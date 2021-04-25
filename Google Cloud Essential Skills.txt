@@ -1,0 +1,26 @@
+Task 1 :
+// Compute Engine >> VM Instannces >> Create Instance.
+   
+   Name : apache
+   Zone : us-central1-a
+   Series : N1
+   Boot Disk : Linux 9 (stretch)
+   
+   Tick : Allow HTTP Traffic
+          Allow HTTPS Traffic
+          
+   Create
+
+Task 2 :
+
+// SSH >> apache
+
+sudo su -
+apt-get update
+apt-get install apache2 -y
+service --status-all
+
+
+Task 3:
+		
+Click on External IP of apache
